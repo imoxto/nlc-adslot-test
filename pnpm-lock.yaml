@@ -11,6 +11,9 @@ importers:
       next:
         specifier: 15.5.4
         version: 15.5.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      nlcyber-adslot:
+        specifier: ^1.1.0
+        version: 1.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -1410,6 +1413,12 @@ packages:
         optional: true
       sass:
         optional: true
+
+  nlcyber-adslot@1.1.0:
+    resolution: {integrity: sha512-9m/iSmQWZ6XaEhawT94z6oZBePy3GcZnudKCVx4veFZ7a/59qIubg/bbn9GSAmmebJgMQIpLa/Ls4wwUrDmFaw==}
+    peerDependencies:
+      react: '>=18.0.0 <20.0.0'
+      react-dom: '>=18.0.0 <20.0.0'
 
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
@@ -3236,6 +3245,11 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+
+  nlcyber-adslot@1.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
 
   object-assign@4.1.1: {}
 
